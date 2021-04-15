@@ -1,11 +1,11 @@
 // References
-// https://developers.google.com/chart/interactive/docs/gallery/geochart
-// TODO: try https://developers.google.com/chart/interactive/docs/gallery/geomap
+// https://developers.google.com/chart/interactive/docs/gallery/geomap
+// https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
 
 google.charts.load('current', {
     'packages': ['geochart'],
     // Note: you will need to get a mapsApiKey for your project.
-    // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+	// mapsApiKey: https://developers.google.com/chart/interactive/docs/gallery/geochart
     'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
 });
 google.charts.setOnLoadCallback(drawRegionsMap);
