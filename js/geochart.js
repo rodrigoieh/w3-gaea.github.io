@@ -4,7 +4,7 @@
 
 google.charts.load('current', {
     'packages': ['geochart'],
-    // Note: you will need to get a mapsApiKey for your project.
+	// Note: you will need to get a mapsApiKey for your project.
 	// mapsApiKey: https://developers.google.com/chart/interactive/docs/gallery/geochart
     'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
 });
